@@ -133,7 +133,7 @@ input[type=range]::-webkit-slider-thumb {
   border-radius: 50px;
   background: #ffc600;
   cursor: pointer;
-  -webkit-appearance: none;
+  -webkit-appearance: none; 
   margin-top: -3.5px;
   box-shadow:0 0 2px rgba(0,0,0,0.2);
 }
@@ -160,3 +160,6 @@ input[type=range]::-moz-range-thumb {
   background: #ffc600;
   cursor: pointer;
 }
+
+
+
