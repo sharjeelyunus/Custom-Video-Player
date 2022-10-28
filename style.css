@@ -27,7 +27,6 @@ body {
   overflow: hidden;
 }
 
-/* This css is only applied when fullscreen is active. */
 .player:fullscreen {
   max-width: none;
   width: 100%;
@@ -48,10 +47,10 @@ body {
   line-height: 1;
   color: white;
   text-align: center;
-  outline: 0;
-  padding: 0;
+  outline: 1;
+  padding: 1;
   cursor: pointer;
-  max-width: 50px;
+  max-width: 60px;
 }
 
 .player__button:focus {
@@ -79,7 +78,7 @@ body {
 }
 
 .player:hover .progress {
-  height: 15px;
+  height: 20px;
 }
 
 .player__controls > * {
@@ -130,7 +129,7 @@ input[type=range]::-webkit-slider-runnable-track {
 input[type=range]::-webkit-slider-thumb {
   height: 15px;
   width: 15px;
-  border-radius: 50px;
+  border-radius: 60px;
   background: #ffc600;
   cursor: pointer;
   -webkit-appearance: none;
@@ -156,7 +155,7 @@ input[type=range]::-moz-range-thumb {
   box-shadow: 0 0 0 rgba(0, 0, 0, 0), 0 0 0 rgba(13, 13, 13, 0);
   height: 15px;
   width: 15px;
-  border-radius: 50px;
+  border-radius: 60px;
   background: #ffc600;
   cursor: pointer;
 }
